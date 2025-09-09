@@ -1,0 +1,139 @@
+😂/home/tthtlc/ntuc/ntuc_cicd>git clone https://github.com/dewi-xaltius/github-demo.git
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git remote remove origin
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git remote add origin git@github.com:tthtlc/tmp
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git remote -v
+origin  git@github.com:tthtlc/tmp (fetch)
+origin  git@github.com:tthtlc/tmp (push)
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>d
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>vi index.html
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git commit -a
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git push
+    git push --set-upstream origin main
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git push -u origin main
+The authenticity of host 'github.com (20.205.243.166)' can't be established.
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git remote add origin https://github.com/tthtlc/tmp
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git remote -v
+origin  git@github.com:tthtlc/tmp (fetch)
+origin  git@github.com:tthtlc/tmp (push)
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git remote remove origin
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git remote -v
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git remote add origin https://github.com/tthtlc/tmp
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git remote -v
+origin  https://github.com/tthtlc/tmp (fetch)
+origin  https://github.com/tthtlc/tmp (push)
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git commit -a
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>vi index.html
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git commit -a
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git push -u origin main
+To https://github.com/tthtlc/tmp
+error: failed to push some refs to 'https://github.com/tthtlc/tmp'
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git config
+usage: git config [<options>]
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>^Ct config ==
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git config --list --show-origin
+file:/etc/gitconfig     filter.lfs.clean=git-lfs clean -- %f
+file:/etc/gitconfig     filter.lfs.smudge=git-lfs smudge -- %f
+file:/etc/gitconfig     filter.lfs.process=git-lfs filter-process
+file:/etc/gitconfig     filter.lfs.required=true
+file:/home/tthtlc/.gitconfig    credential.helper=store
+file:/home/tthtlc/.gitconfig    filter.lfs.clean=git-lfs clean -- %f
+file:/home/tthtlc/.gitconfig    filter.lfs.smudge=git-lfs smudge -- %f
+file:/home/tthtlc/.gitconfig    filter.lfs.process=git-lfs filter-process
+file:/home/tthtlc/.gitconfig    filter.lfs.required=true
+file:/home/tthtlc/.gitconfig    user.name=Peter Teoh
+file:/home/tthtlc/.gitconfig    user.email=htmldeveloper@gmail.com
+file:.git/config        core.repositoryformatversion=0
+file:.git/config        core.filemode=true
+file:.git/config        core.bare=false
+file:.git/config        core.logallrefupdates=true
+file:.git/config        remote.origin.url=https://github.com/tthtlc/tmp
+file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>hoy vpmg^C
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git config
+usage: git config [<options>]
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git config user.name
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git config user.email
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git credential-manager-core list
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git credential-osxkeyc^C
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git commit -a
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git push
+    git push --set-upstream origin main
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git push -u origin main
+To https://github.com/tthtlc/tmp
+error: failed to push some refs to 'https://github.com/tthtlc/tmp'
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>ggit pull^C
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git pull
+From https://github.com/tthtlc/tmp
+See git-pull(1) for details.
+    git pull <remote> <branch>
+    git branch --set-upstream-to=origin/<branch> main
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git push -u origin main
+To https://github.com/tthtlc/tmp
+error: failed to push some refs to 'https://github.com/tthtlc/tmp'
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git pull
+See git-pull(1) for details.
+    git pull <remote> <branch>
+    git branch --set-upstream-to=origin/<branch> main
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git pull remote origin
+fatal: 'remote' does not appear to be a git repository
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git pull origin main
+From https://github.com/tthtlc/tmp
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: You can replace "git config" with "git config --global" to set a default
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git push -u origin main
+To https://github.com/tthtlc/tmp
+error: failed to push some refs to 'https://github.com/tthtlc/tmp'
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git pull origin main
+From https://github.com/tthtlc/tmp
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: You can replace "git config" with "git config --global" to set a default
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git config pull.rebase false
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git pull origin main
+From https://github.com/tthtlc/tmp
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git pull origin main
+From https://github.com/tthtlc/tmp
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git config pull.rebase false^C
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git remote -v
+origin  https://github.com/tthtlc/tmp (fetch)
+origin  https://github.com/tthtlc/tmp (push)
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git remote remove origin
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git remote -v
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git remote add origin https://github.com/tthtlc/tmtmp.git
+
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git remote -v
+origin  https://github.com/tthtlc/tmtmp.git (fetch)
+origin  https://github.com/tthtlc/tmtmp.git (push)
+
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git commit -a
+
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git push origin main
+fatal: repository 'https://github.com/tthtlc/tmtmp.git/' not found
+
+
+so use github and create a repo tmtmp
+😂/home/tthtlc/ntuc/ntuc_cicd/github-demo>git push origin main
+To https://github.com/tthtlc/tmtmp.git
